@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net45</TargetFramework>
+    <TargetFrameworks>net45;netstandard20</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.4.12" />
+    <PackageReference Include="NLog" Version="4.5.10" />
   </ItemGroup>
 
   <ItemGroup>
@@ -13,21 +13,21 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <TargetFramework>net45</TargetFramework>
+    <TargetFrameworks>net45;netstandard20</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Authors>Petar Marinov</Authors>
     <Company>Petar Marinov</Company>
     <Description>A M.Logging abstraction implementation utilizing NLog for logging.</Description>
-    <Copyright>Copyright (c) 2017 Petar Marinov</Copyright>
+    <Copyright>Copyright (c) 2018 Petar Marinov</Copyright>
     <PackageLicenseUrl>https://github.com/petar-m/logging/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/petar-m/logging</PackageProjectUrl>
     <RepositoryUrl>https://github.com/petar-m/logging</RepositoryUrl>
     <PackageTags>logging m.logging nlog</PackageTags>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0</Version>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version>2.0.0</Version>
   </PropertyGroup>
   
 </Project>
