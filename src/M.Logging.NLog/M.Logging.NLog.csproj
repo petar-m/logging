@@ -24,7 +24,7 @@
     <PackageProjectUrl>https://github.com/petar-m/logging</PackageProjectUrl>
     <RepositoryUrl>https://github.com/petar-m/logging</RepositoryUrl>
     <PackageTags>logging m.logging nlog</PackageTags>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>.NET Standard 2.0 target; latest version of NLog</PackageReleaseNotes>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
     <Version>2.0.0</Version>
